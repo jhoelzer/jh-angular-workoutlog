@@ -11,7 +11,7 @@ var plumber = require('gulp-plumber');
 var javascriptFiles = [
 	'app.js',
 	'./components/**/*.js',
-	'./services/**/*.js',
+	'./services/**/*.js'
 ];
 
 gulp.task('bundle', function() {

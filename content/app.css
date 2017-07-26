@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5 {
-	color: #D9514E;
+	color: white;
 }
 
 #def-save, #signup, #login, #logsave {
@@ -22,6 +22,40 @@ h1, h2, h3, h4, h5 {
 .col-xs-12 {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+}
+
+body {
+	background: url("./img/heron-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#text {
+	color: white;
+	margin-top: 5%;
+	text-align: center;
+
+}
+
+h1 {
+	
+	font-weight: bold;
+}
+
+#button {
+	background-color: #2B547E;
+	margin-left: 33%;
+	margin-top: 6%;
+	font-size: 125%;
+}
+
+#button2 {
+	background-color: #2B547E;
+	margin-left: 3%;
+	margin-top: 6%;
+	font-size: 125%;
 }
 
 /* !important is used to override anything that may be occuring in bootstrap.min.css */
