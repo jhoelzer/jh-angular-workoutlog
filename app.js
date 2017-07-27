@@ -25,6 +25,6 @@
 	app.config(config);
 
 	var API_BASE = location.hostname === "localhost" ?
-		"//localhost:3000/api/" : "http://rest.learncode.academy/api/jenny/";
+		"//localhost:3000/api/" : "https://data.heroku.com/datastores/8f950197-301a-4213-b5b2-6c60dbb09506";
 	app.constant('API_BASE', API_BASE);
 })();

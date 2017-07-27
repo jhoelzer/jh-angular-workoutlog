@@ -33,7 +33,7 @@
 
 		function DefineController( $state, DefineService ) {
 			var vm = this;
-			vm.message = "Define a workout category here";
+			vm.message = "Basic bird info goes here";
 			vm.saved = false;
 			vm.definition = {};
 			vm.save = function() {

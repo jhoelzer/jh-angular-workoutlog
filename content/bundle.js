@@ -25,7 +25,7 @@
 	app.config(config);
 
 	var API_BASE = location.hostname === "localhost" ?
-		"//localhost:3000/api/" : "http://rest.learncode.academy/api/jenny/";
+		"//localhost:3000/api/" : "https://data.heroku.com/datastores/8f950197-301a-4213-b5b2-6c60dbb09506";
 	app.constant('API_BASE', API_BASE);
 })();
 (function() {
@@ -158,7 +158,7 @@
 
 		function DefineController( $state, DefineService ) {
 			var vm = this;
-			vm.message = "Define a workout category here";
+			vm.message = "Basic bird info goes here";
 			vm.saved = false;
 			vm.definition = {};
 			vm.save = function() {
